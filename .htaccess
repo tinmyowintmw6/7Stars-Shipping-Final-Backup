@@ -1,3 +1,33 @@
+# BEGIN WP Hide & Security Enhancer
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase /sevenstarsshipping.com/ 
+#WriteCheckString:1659601206_88382
+RewriteRule ^rewrite_test_1659601206_88382/? /sevenstarsshipping.com/wp-content/plugins/wp-hide-security-enhancer/include/rewrite-confirm.php [L,QSA]
+
+RewriteRule ^javascripts/my-script.css /sevenstarsshipping.com/wp-content/themes/sevenstarsshipping/style.css [L,QSA]
+
+RewriteRule ^javascripts/(.+) /sevenstarsshipping.com/wp-content/themes/sevenstarsshipping/$1 [L,QSA]
+
+RewriteRule ^modules/number1/(.+) /sevenstarsshipping.com/wp-content/plugins/polylang/$1 [L,QSA]
+RewriteRule ^modules/number2/(.+) /sevenstarsshipping.com/wp-content/plugins/advanced-custom-fields/$1 [L,QSA]
+RewriteRule ^modules/number3/(.+) /sevenstarsshipping.com/wp-content/plugins/classic-editor/$1 [L,QSA]
+RewriteRule ^modules/number4/(.+) /sevenstarsshipping.com/wp-content/plugins/contact-form-7/$1 [L,QSA]
+RewriteRule ^modules/number5/(.+) /sevenstarsshipping.com/wp-content/plugins/custom-post-type-ui/$1 [L,QSA]
+RewriteRule ^modules/number6/(.+) /sevenstarsshipping.com/wp-content/plugins/disable-comments/$1 [L,QSA]
+RewriteRule ^modules/number7/(.+) /sevenstarsshipping.com/wp-content/plugins/ml-slider/$1 [L,QSA]
+RewriteRule ^modules/number8/(.+) /sevenstarsshipping.com/wp-content/plugins/uber-login-logo/$1 [L,QSA]
+RewriteRule ^modules/number9/(.+) /sevenstarsshipping.com/wp-content/plugins/velvet-blues-update-urls/$1 [L,QSA]
+RewriteRule ^myawsomes/(.+) /sevenstarsshipping.com/wp-content/plugins/$1 [L,QSA]
+
+RewriteRule ^php_includes/(.+) /sevenstarsshipping.com/wp-includes/$1 [L,QSA]
+
+RewriteRule ^media/(.+) /sevenstarsshipping.com/wp-content/uploads/$1 [L,QSA]
+
+RewriteRule ^php_assests/(.+) /sevenstarsshipping.com/wp-content/$1 [L,QSA]
+</IfModule> 
+
+# END WP Hide & Security Enhancer
 
 # BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are

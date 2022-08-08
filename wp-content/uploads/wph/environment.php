@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+$environment_variable = '{"theme":{"folder_name":"sevenstarsshipping","mapped_name":"javascripts"},"allowed_paths":["C:\/wamp64\/www\/sevenstarsshipping.com\/wp-content\/themes"],"cache_path":"C:\/wamp64\/www\/sevenstarsshipping.com\/wp-content\/cache\/wph\/","wordpress_directory":"","site_relative_path":"\/sevenstarsshipping.com\/"}'; ?>
